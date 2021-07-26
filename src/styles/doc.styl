@@ -145,7 +145,7 @@
     text-decoration-color $nanoSoftBlue
     text-decoration-thickness 2px
     text-underline-offset 2px
-    &:hover
+    &:hover, &:focus
       color $nanoSoftBlue
 
 .doc__content-author
@@ -154,7 +154,7 @@
   a
     color $nanoSoftBlue
     text-decoration none !important
-    &:hover
+    &:hover, &:focus
       text-decoration underline !important
       text-decoration-color $nanoSoftBlue
       text-decoration-thickness 2px
@@ -176,7 +176,7 @@
     width 20px
     height 20px
 
-  &:hover .MuiSvgIcon-root
+  &:hover .MuiSvgIcon-root, &:focus .MuiSvgIcon-root
     fill $nanoSoftBlue
 
 @media (max-width 750px)
@@ -195,7 +195,7 @@
 
   .doc__header
     position relative
-    &:hover .doc__header-link
+    &:hover .doc__header-link, .doc__header-link:focus
       opacity 1
       background #F6F6F6
 
